@@ -278,6 +278,7 @@ def build_html(repo_url: str, repo_dir: pathlib.Path, head_commit: str, infos: L
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Flattened repo – {html.escape(repo_url)}</title>
 <style>
+  * { box-sizing: border-box; }
   body {{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji','Segoe UI Emoji';
     margin: 0; padding: 0; line-height: 1.45;
